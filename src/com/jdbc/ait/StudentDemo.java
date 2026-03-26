@@ -52,6 +52,11 @@ public class StudentDemo {
 				System.out.println(rows+" inserted...");
 				break;
 				
+			case 3:
+				removeStudent();
+				System.out.println("Student removed...");
+				break;
+				
 			default:
 				System.out.println("Invalid choice....try again");
 
@@ -59,6 +64,11 @@ public class StudentDemo {
 
 		}
 
+	}
+
+	private static void removeStudent() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	private static void createTable() throws SQLException {
