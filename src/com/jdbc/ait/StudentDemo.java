@@ -51,6 +51,9 @@ public class StudentDemo {
 				int rows=addStudent();
 				System.out.println(rows+" inserted...");
 				break;
+				
+			default:
+				System.out.println("Invalid choice....try again");
 
 			}
 
